@@ -429,67 +429,82 @@ HTML.estrategia = `
 HTML.metricas = `
 <span class="kicker"><span class="k-n">02</span> · Gestión de equipo — a) Métricas de éxito</span>
 <h1 class="title">¿Cómo mido cada rol<br><span class="hl">más allá del GPV</span>?</h1>
-<p class="lead">Medir a los tres roles con la misma vara funde el sistema: cada rol vive en una etapa distinta del proceso y en un horizonte distinto. Toda métrica es una tasa de conversión o un tiempo — no un número absoluto. Así puedo diagnosticar <b>por qué</b> alguien no llega, no solo que no llega.</p>
+<p class="lead">Toda métrica es una tasa de conversión o un tiempo — no un output absoluto. Así diagnostico <b>por qué</b> alguien no llega, no solo que no llega.</p>
 
 <table class="t">
-  <thead><tr><th style="width:130px">Rol</th><th>Métrica madre</th><th>Tiempo objetivo</th><th>Métrica de proceso</th><th>Calidad</th></tr></thead>
+  <thead><tr><th style="width:120px">Rol</th><th>Métrica madre</th><th>Tiempo clave</th><th>Proceso</th><th>Calidad</th></tr></thead>
   <tbody>
     <tr>
       <td class="rolecol">Ingreso MM</td>
-      <td>Activaciones MM + velocidad<div style="font-size:11px;color:var(--gray);margin-top:2px">objetivo conv. 28%</div></td>
-      <td><b>≤45 días</b><div style="font-size:11px;color:var(--gray);margin-top:2px">cierre → activación</div></td>
-      <td>CR demo→cierre · días entre cierre y activación</td>
-      <td>TPV real post-activación</td>
+      <td>Activaciones + <b>tiempo al primer ticket</b><div style="font-size:11px;color:var(--gray);margin-top:2px">conv. objetivo 28%</div></td>
+      <td><b>≤45 días</b><div style="font-size:11px;color:var(--gray);margin-top:2px">cierre → 1° ticket</div></td>
+      <td>CR demo→cierre · días al primer ticket</td>
+      <td>TPV real (no activación binaria)</td>
     </tr>
     <tr>
       <td class="rolecol">Ingreso SMB</td>
-      <td>Activaciones SMB totales<div style="font-size:11px;color:var(--gray);margin-top:2px">objetivo conv. 27%</div></td>
-      <td><b>≤21 días</b><div style="font-size:11px;color:var(--gray);margin-top:2px">cierre → activación</div></td>
-      <td>CR sobre flujo recibido · velocidad de ciclo</td>
-      <td>TPV real post-activación</td>
+      <td>Activaciones + <b>tiempo al primer ticket</b><div style="font-size:11px;color:var(--gray);margin-top:2px">conv. objetivo 27%</div></td>
+      <td><b>≤21 días</b><div style="font-size:11px;color:var(--gray);margin-top:2px">cierre → 1° ticket</div></td>
+      <td>CR sobre flujo recibido · velocidad</td>
+      <td>TPV real (no activación binaria)</td>
     </tr>
     <tr>
       <td class="rolecol">Conversión</td>
-      <td>CR base <b>15→20%</b> ponderado por GMV<div style="font-size:11px;color:var(--gray);margin-top:2px">sobre cartera priorizada</div></td>
-      <td><b>≤30 días</b><div style="font-size:11px;color:var(--gray);margin-top:2px">toque → activación</div></td>
-      <td>Velocidad de barrido top-GMV en primeras 6 sem</td>
+      <td>CR base 15→20% pond. GMV<div style="font-size:11px;color:var(--gray);margin-top:2px">sobre cartera priorizada</div></td>
+      <td><b>≤30 días</b><div style="font-size:11px;color:var(--gray);margin-top:2px">toque → 1° ticket</div></td>
+      <td>% top-GMV barrido en primeras 6 sem</td>
       <td>Migración real de TPV (pre/post)</td>
     </tr>
     <tr>
       <td class="rolecol">Alianzas Bancarias</td>
-      <td>Acuerdos × rate × base × duración<div style="font-size:11px;color:var(--gray);margin-top:2px">ej: 1 acuerdo · +2pp · $5.000M base · 3Q = $300M GPV adicional</div></td>
-      <td>—<div style="font-size:11px;color:var(--gray);margin-top:2px">ciclo largo, meses</div></td>
-      <td>Pipeline de acuerdos · cobertura por rubro</td>
+      <td>Acuerdos × rate × base × duración<div style="font-size:11px;color:var(--gray);margin-top:2px">ej: +2pp · $5.000M · 3Q = $300M GPV adicional</div></td>
+      <td>—<div style="font-size:11px;color:var(--gray);margin-top:2px">ciclo de meses</div></td>
+      <td>Pipeline · cobertura por rubro</td>
       <td>Δ rate efectivo sobre la base</td>
     </tr>
   </tbody>
 </table>
 
-<h2 class="sec">El 20% no se postula — así se construye</h2>
-<p class="body">Subir la base de 15% a 20% no es voluntarismo. A diferencia de los AEs de Ingreso —que dependen del flujo de Tiendanube—, el <b>Conversión controla su universo</b>: tiene 90 cuentas, son suyas, las ataca cuando y como quiera. Por eso acá la conversión sí se gestiona. El plan tiene tres pasos en orden:</p>
-
-<div class="card" style="border-left:4px solid var(--violet);border-radius:0 14px 14px 0">
-  <h3 class="sub" style="margin-top:0">1 · Segmentación ordenada — antes de tocar nada</h3>
-  <p class="body" style="font-size:14px;margin-bottom:4px">No trabajo las 90 al azar. Las ordeno por <b>probabilidad de conversión × ticket</b>: priorizo los rubros y tickets que más convierten (alto GMV, categorías de ticket de compra alto — electro, tecno, deco) y los cruzo con la <b>estacionalidad</b> (qué rubro entra en qué evento del calendario AR).</p>
-  <div class="tag-row"><span class="pill violet">Por ticket / GMV</span><span class="pill violet">Por rubro que más convierte</span><span class="pill amber">Por evento estacional</span></div>
+<div class="callout amber" style="margin-top:14px">
+  <div class="ct">El KPI central para Ingreso: tiempo hasta el primer ticket</div>
+  <p style="font-size:13.5px">"Activó" es un evento binario — puede ser una configuración vacía. El primer ticket procesado es la conversión real. Por eso el KPI no es "días hasta el alta", es <b>días hasta el primer pago procesado</b>. Si no llega en el plazo, la activación no cuenta.</p>
 </div>
 
-<div class="card" style="border-left:4px solid var(--tn);border-radius:0 14px 14px 0">
-  <h3 class="sub" style="margin-top:0">2 · Los toques, pensados con el tiempo de activación</h3>
-  <p class="body" style="font-size:14px">La base activa en ~30 días y el Q tiene ~90 días. Si toco las cuentas en los <b>primeros 60 días</b>, todas alcanzan a cerrar el ciclo dentro del Q. Por eso no reparto 30/30/30 por mes: barro la cartera priorizada al inicio, empezando por las de mayor valor.</p>
+<h2 class="sec">Cómo mejoramos la conversión de Ingreso MM y SMB</h2>
+<p class="body">El Ingreso tiene una ventaja estructural que hay que capitalizar: el comercio ya pagó el <b>costo de cambio</b> — viene de redes sociales o de otro e-commerce, ya decidió migrar a Tiendanube. La fricción de cambiar de medio de pago es mínima en ese momento. Si no lo capturamos ahí, la inercia vuelve y la conversión se complica.</p>
+
+<div class="grid g2" style="margin:14px 0">
+  <div class="card" style="border-top:4px solid var(--tn)">
+    <span class="pill tn">Driver 1 — el más importante</span>
+    <h3 class="sub" style="margin-top:8px">Meet conjunta en el onboarding de Tiendanube</h3>
+    <p class="body" style="font-size:13.5px;margin:0">En la misma conversación de cierre de Tiendanube, el Hunter activa Pago Nube. No es una segunda llamada — es parte del mismo proceso de alta. El comercio percibe una sola migración integral. El costo de cambio ya fue absorbido: el "también activamos el pago" es natural ahí, no una semana después cuando ya se acomodó.</p>
+  </div>
+  <div class="card" style="border-top:4px solid var(--teal)">
+    <span class="pill teal">Driver 2 — el que cierra el ciclo</span>
+    <h3 class="sub" style="margin-top:8px">Activación temprana + primer ticket en el onboarding</h3>
+    <p class="body" style="font-size:13.5px;margin:0">No "te llamo la semana que viene". La configuración de PN se hace en la misma sesión. El objetivo es que el primer ticket procesado aparezca en los primeros días — eso ancla el hábito y convierte la activación en uso real. El tiempo hasta el primer ticket es el KPI, no el alta.</p>
+  </div>
+  <div class="card" style="border-top:4px solid var(--violet)">
+    <span class="pill violet">Driver 3 — munición de Alianzas Bancarias</span>
+    <h3 class="sub" style="margin-top:8px">Cuotas sin interés como argumento de cierre</h3>
+    <p class="body" style="font-size:13.5px;margin:0">Un acuerdo activo con un banco (ej: 3 o 6 cuotas sin interés exclusivas de Pago Nube) convierte el "activá PN" en "activá PN y ofrecé cuotas que tu competencia no tiene". Sobre todo en rubros de ticket alto (electro, deco, tecno) donde las cuotas son determinantes. Es munición directa para el Hunter de Ingreso.</p>
+  </div>
+  <div class="card" style="border-top:4px solid var(--amber)">
+    <span class="pill amber">Driver 4 — el deadline que baja la inercia</span>
+    <h3 class="sub" style="margin-top:8px">Momentos clave de eventos como urgencia real</h3>
+    <p class="body" style="font-size:13.5px;margin:0">Hot Sale, CyberMonday, Mundial, Navidad: en esas ventanas, el comercio tiene un deadline real de facturación. "Si no tenés PN activo para el Hot Sale, perdés ventas en tu evento más importante del año" — eso no es presión artificial, es consecuencia real. El evento hace el trabajo de urgencia que de otra forma recae en el vendedor.</p>
+  </div>
 </div>
 
-<div class="card" style="border-left:4px solid var(--teal);border-radius:0 14px 14px 0">
-  <h3 class="sub" style="margin-top:0">3 · El argumento que sube el CR</h3>
-  <p class="body" style="font-size:14px">El pitch es el <b>ahorro cuantificado</b> (el 0,7–2% bonificado en pesos para ese comercio) + <b>menor fricción en el checkout</b> que mejora su conversión. De ahí salen los ~5 puntos: <b>+3 pp</b> por segmentar bien y <b>+2 pp</b> por el argumento de valor. El resultado: <b>~20% sobre la cartera priorizada</b>, no sobre la base entera.</p>
-</div>
-
-<div class="callout">
-  <p><b>Métricas para corregir a tiempo, no para reportar al final.</b> Si solo miro la conversión final, me entero del problema cuando ya no hay margen. La métrica de proceso —cuántas cuentas del top barrió en las primeras semanas— me lo muestra temprano, con tiempo de sobra para reasignar foco.</p>
+<h2 class="sec">Conversión de base instalada — compacto</h2>
+<div class="grid g3" style="margin:10px 0">
+  <div class="card" style="padding:14px"><span class="pill violet">Paso 1</span><h3 class="sub" style="margin-top:6px;font-size:14px">Segmentación</h3><p class="body" style="font-size:13px;margin:0">Top-GMV primero, por rubro y estacionalidad. No 30/30/30.</p></div>
+  <div class="card" style="padding:14px"><span class="pill tn">Paso 2</span><h3 class="sub" style="margin-top:6px;font-size:14px">Toques en primeros 60 días</h3><p class="body" style="font-size:13px;margin:0">Lo tocado tarde activa el Q siguiente. Barrer temprano.</p></div>
+  <div class="card" style="padding:14px"><span class="pill teal">Paso 3</span><h3 class="sub" style="margin-top:6px;font-size:14px">Pitch = ahorro + fricción</h3><p class="body" style="font-size:13px;margin:0">0,7–2% bonificado en pesos + menos abandono de carrito. De ahí salen los +5pp hasta el 20%.</p></div>
 </div>
 
 <h3 class="sub">Simple y operable</h3>
-<p class="body">No trackeo 12 métricas por igual. Cada AE tiene <b>dos números propios</b>: una métrica madre que sigue a diario y una de proceso que revisamos juntos en el semanal. La de calidad la audito yo mensualmente. Así el equipo foca, y yo tengo visibilidad para actuar antes de que sea tarde.</p>
+<p class="body">Cada AE tiene <b>dos números propios</b>: una métrica madre que sigue a diario y una de proceso que revisamos en el semanal. La de calidad la audito yo mensualmente. Así el equipo foca y yo actúo antes de que sea tarde.</p>
 `;
 
 HTML.desempeno = `
