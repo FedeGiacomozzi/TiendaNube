@@ -297,112 +297,133 @@ HTML.apertura = `
 HTML.estrategia = `
 <span class="kicker"><span class="k-n">01</span> · Estrategia comercial</span>
 <h1 class="title">¿Cómo organizo el tiempo y el esfuerzo<br>para alcanzar los <span class="hl">$2.000M</span>?</h1>
-<p class="lead">Construyo la cuota de punta a punta: qué cierra el equipo, qué activa dentro del Q y qué se va al siguiente, cómo se compensa, y qué palancas cierran el resto hasta los $2.000M. Todo auditable.</p>
+<p class="lead">Construyo la cuota de punta a punta: qué cierra el equipo, qué activa dentro del Q y qué se va al siguiente, cómo se compensa, y qué palancas cierran el resto. Todo auditable, número por número.</p>
 
 <h2 class="sec">1 · El modelo base — lo que el equipo cierra</h2>
-<p class="body">Con las tasas del enunciado (conversión 25% nuevos / 15% base, capture 60%), el equipo cierra <b>~$1.624M</b> en el trimestre. Así se compone:</p>
+<p class="body">Con las tasas del enunciado (conversión 25% nuevos / 15% base, capture 60%), el equipo cierra <b>~$1.624M</b> en el trimestre:</p>
 
 <div class="grid g4" style="margin:10px 0">
   <div class="stat"><div class="lbl">Ingreso MM</div><div class="val tn">$990M</div><div class="note">45 deals × 25% × $90M</div></div>
   <div class="stat"><div class="lbl">Ingreso SMB</div><div class="val tn">$456M</div><div class="note">75 deals × 25% × $24M</div></div>
   <div class="stat"><div class="lbl">Conversión</div><div class="val tn">$162M</div><div class="note">90 cuentas × 15% × $12M</div></div>
-  <div class="stat"><div class="lbl">Total cerrado</div><div class="val">$1.608M</div><div class="note">redondeo del modelo</div></div>
+  <div class="stat"><div class="lbl">Total cerrado</div><div class="val">$1.608M</div><div class="note">≈$1.624M redondeado</div></div>
 </div>
 
 <h2 class="sec">2 · Cuándo activa cada deal — qué cae en el Q</h2>
-<p class="body">Cerrar no es facturar: cada deal tarda en activar. Un MM cerrado a fin de Q activa el Q siguiente. Pero la venta es un <b>pipe en proceso</b>, no won/lost: a inicio de este Q también activan los deals que venían cerrándose el Q anterior. En régimen, lo que se va por un lado entra por el otro.</p>
+<p class="body">Cerrar no es facturar. Cada deal tarda en activar según el rol. Un MM cerrado tarde activa el Q siguiente. Pero la venta es un <b>pipe en proceso</b>: a inicio de este Q también activan deals del Q anterior. En régimen, lo que se va por un lado entra por el otro.</p>
 
 <table class="t">
-  <thead><tr><th>Rol</th><th>Deals / Q</th><th>Conv.</th><th>Activac.</th><th>GPV / cuenta</th><th>Activación</th></tr></thead>
+  <thead><tr><th>Rol</th><th>Deals / Q</th><th>Conv. base</th><th>Activac.</th><th>GPV / cuenta</th><th>Tiempo activación</th></tr></thead>
   <tbody>
     <tr><td class="rolecol">Ingreso MM</td><td>45</td><td>25%</td><td>~11</td><td>$90M</td><td>1–2 meses</td></tr>
-    <tr><td class="rolecol">Ingreso SMB</td><td>75</td><td>25%</td><td>~19</td><td>$24M</td><td>1–3 sem</td></tr>
-    <tr><td class="rolecol">Conversión</td><td>90</td><td>15→22%</td><td>~14–20</td><td>$12M</td><td>~1 mes</td></tr>
+    <tr><td class="rolecol">Ingreso SMB</td><td>75</td><td>25%</td><td>~19</td><td>$24M</td><td>1–3 semanas</td></tr>
+    <tr><td class="rolecol">Conversión</td><td>90</td><td>15%</td><td>~14</td><td>$12M</td><td>~1 mes</td></tr>
   </tbody>
 </table>
 
 <h2 class="sec">3 · El camino a los $2.000M, paso a paso</h2>
-<p class="body">Acá está la respuesta concreta a "cómo llego a la cuota". Con cierres parejos (1/3 por mes), una parte de lo que cierro tarde activa el Q siguiente — sobre todo el MM, que tarda 1-2 meses. Pero en régimen heredo lo mismo del Q anterior. Seguí la cuenta:</p>
+<p class="body">Con cierres parejos (1/3 por mes), la cola de MM y SMB que activa tarde se compensa con la herencia del Q anterior. Las dos palancas que controlo cierran el gap restante:</p>
 
 <div class="card" style="padding:8px 0">
   <table class="t" style="border:none">
     <tbody>
       <tr><td>Cierres del Q (modelo base)</td><td style="text-align:right;white-space:nowrap"><b>$1.624M</b></td></tr>
-      <tr><td style="color:var(--coral)">− Activa el Q siguiente (cola: MM 1/3 + SMB)</td><td style="text-align:right;color:var(--coral);white-space:nowrap">−$366M</td></tr>
+      <tr><td style="color:var(--coral)">− Cola al Q siguiente (MM ~1/3 + SMB ~8%)</td><td style="text-align:right;color:var(--coral);white-space:nowrap">−$366M</td></tr>
       <tr><td>= Deposita en el Q de lo cerrado ahora</td><td style="text-align:right;white-space:nowrap">$1.258M</td></tr>
       <tr><td style="color:var(--ok)">+ Herencia: cerrado el Q pasado que activa ahora</td><td style="text-align:right;color:var(--ok);white-space:nowrap">+$366M</td></tr>
-      <tr style="background:var(--tn-bg) !important"><td><b>= Piso realista (pipe cargado)</b></td><td style="text-align:right;white-space:nowrap"><b style="color:var(--tn)">$1.624M</b></td></tr>
-      <tr><td style="color:var(--ok)">+ Tiempo · front-load (adelantar cierres)</td><td style="text-align:right;color:var(--ok);white-space:nowrap">+$250M</td></tr>
-      <tr><td style="color:var(--ok)">+ Conversión · segmentación + ahorro</td><td style="text-align:right;color:var(--ok);white-space:nowrap">+$180M</td></tr>
-      <tr><td style="color:var(--ok)">+ Estacionalidad · eventos AR</td><td style="text-align:right;color:var(--ok);white-space:nowrap">+$120M</td></tr>
-      <tr style="background:var(--teal-bg) !important"><td><b>= Total proyectado</b></td><td style="text-align:right;white-space:nowrap"><b style="color:var(--ok)">~$2.174M</b></td></tr>
+      <tr style="background:var(--tn-bg) !important"><td><b>= Piso real (pipe cargado, en régimen)</b></td><td style="text-align:right;white-space:nowrap"><b style="color:var(--tn)">$1.624M</b></td></tr>
+      <tr><td style="color:var(--ok)">+ Palanca 1 · Tiempo — front-load del Q</td><td style="text-align:right;color:var(--ok);white-space:nowrap">+$200M</td></tr>
+      <tr><td style="color:var(--ok)">+ Palanca 2 · Conversión — mejora leve los 3 roles</td><td style="text-align:right;color:var(--ok);white-space:nowrap">+$212M</td></tr>
+      <tr style="background:var(--teal-bg) !important"><td><b>= Total proyectado</b></td><td style="text-align:right;white-space:nowrap"><b style="color:var(--ok)">~$2.036M</b></td></tr>
     </tbody>
   </table>
 </div>
+
+<div class="callout">
+  <div style="font-size:13px;color:var(--gray);margin-bottom:8px">Desglose de la palanca de conversión — número por número:</div>
+  <div class="grid g3" style="gap:10px">
+    <div><span class="pill tn">Base 15→20%</span><div style="font-size:15px;font-weight:700;margin-top:6px">+$54M</div><div style="font-size:12px;color:var(--gray)">90 cuentas × 5pp × $12M</div></div>
+    <div><span class="pill tn">MM 25→28%</span><div style="font-size:15px;font-weight:700;margin-top:6px">+$122M</div><div style="font-size:12px;color:var(--gray)">45 deals × 3pp × $90M</div></div>
+    <div><span class="pill tn">SMB 25→27%</span><div style="font-size:15px;font-weight:700;margin-top:6px">+$36M</div><div style="font-size:12px;color:var(--gray)">75 deals × 2pp × $24M</div></div>
+  </div>
+</div>
 <div class="callout teal">
-  <p><b>La cola es ~18% del objetivo ($366M), y se compensa.</b> En régimen, lo que se va por cierres tardíos vuelve como herencia del Q anterior — por eso el piso es $1.624M. El gap restante lo cierran las palancas (+$550M), dejando un colchón de ~$174M. <b>En el primer Q de un equipo nuevo no hay herencia</b> — por eso ese trimestre es el más duro, y conviene front-loadear fuerte para no perder la cola.</p>
+  <p><b>Llego con $36M de colchón — ajustado, no holgado.</b> La cola (~18% del objetivo) se compensa con la herencia en régimen. Las dos palancas cierran el gap de $376M: tiempo (+$200M de arquitectura de cierres) + conversión leve en los tres roles (+$212M). Sin palancas, siempre quedo en $1.624M. <b>En el primer Q sin herencia, el front-load es crítico</b> — es lo único que compensa no tener pipe previo.</p>
 </div>
 
-<h2 class="sec">4 · Las palancas, explicadas</h2>
+<h2 class="sec">4 · Las palancas — qué hacen y por qué</h2>
 <div class="grid g2">
   <div class="card" style="border-left:4px solid var(--teal);border-radius:0 14px 14px 0">
-    <span class="pill teal">+$250M · costo cero</span>
-    <h3 class="sub" style="margin-top:8px">Tiempo — front-load del Q</h3>
-    <p class="body" style="font-size:13.5px;margin:0">Es la de mayor impacto por peso: no requiere vender más ni mejorar tasas. Adelantar cierres del fin de Q al inicio hace que más deals alcancen a activar <b>dentro</b> del trimestre. Es pura arquitectura de cuándo, y por eso es la primera.</p>
+    <span class="pill teal">+$200M · costo cero</span>
+    <h3 class="sub" style="margin-top:8px">Palanca 1 — Tiempo: front-load del Q</h3>
+    <p class="body" style="font-size:13.5px;margin-bottom:10px">Pasar de cierres parejos (33% al inicio) a concentrar el 70% del esfuerzo MM en las semanas 1–6 mueve <b>~2 cuentas MM del Q siguiente a este Q</b>. Esas 2 cuentas × $90M = <b>+$180M GPV</b>. No es vender más — es trabajar los deals que ya están en el pipe en la primera mitad del Q, no en la segunda.</p>
+    <div class="grid g3" style="gap:8px;margin-bottom:10px">
+      <div style="background:var(--teal-bg);border-radius:var(--border-radius-md);padding:10px 12px;text-align:center">
+        <div style="font-size:20px;font-weight:800;color:var(--ok)">~2 MM</div>
+        <div style="font-size:11px;color:var(--ok);font-weight:600">cuentas adelantadas</div>
+      </div>
+      <div style="background:var(--teal-bg);border-radius:var(--border-radius-md);padding:10px 12px;text-align:center">
+        <div style="font-size:20px;font-weight:800;color:var(--ok)">sem 1–6</div>
+        <div style="font-size:11px;color:var(--ok);font-weight:600">ventana donde activan</div>
+      </div>
+      <div style="background:var(--teal-bg);border-radius:var(--border-radius-md);padding:10px 12px;text-align:center">
+        <div style="font-size:20px;font-weight:800;color:var(--ok)">+$180M</div>
+        <div style="font-size:11px;color:var(--ok);font-weight:600">GPV que no se fuga</div>
+      </div>
+    </div>
+    <span class="pill gray">Acción: checklist de activación en llamada de cierre · meet conjunta con Tiendanube al inicio del Q</span>
   </div>
   <div class="card" style="border-left:4px solid var(--tn);border-radius:0 14px 14px 0">
-    <span class="pill tn">+$180M · coaching</span>
-    <h3 class="sub" style="margin-top:8px">Conversión — segmentación + ahorro</h3>
-    <p class="body" style="font-size:13.5px;margin:0">Sube las tasas donde más rinde: la base instalada de 15% a ~22% con segmentación por GMV/rubro, y el argumento del ahorro cuantificado. Es la palanca que más depende de mi coaching y del playbook.</p>
+    <span class="pill tn">+$212M · coaching</span>
+    <h3 class="sub" style="margin-top:8px">Palanca 2 — Conversión: mejora leve los 3 roles</h3>
+    <p class="body" style="font-size:13.5px;margin-bottom:8px"><b>Base 15→20%:</b> segmentación por GMV/rubro + pitch de ahorro cuantificado (0,7–2% bonificado en pesos). <b>MM 25→28%:</b> discovery más estructurado, llegar al decisor (dueño/CFO). <b>SMB 25→27%:</b> pitch de fricción del checkout — cada punto de conversión del comercio importa más que la comisión.</p>
+    <span class="pill gray">Cada mejora es auditable: +$54M base · +$122M MM · +$36M SMB</span>
   </div>
-  <div class="card" style="border-left:4px solid var(--violet);border-radius:0 14px 14px 0">
-    <span class="pill violet">proceso</span>
-    <h3 class="sub" style="margin-top:8px">Volumen — más oportunidades</h3>
-    <p class="body" style="font-size:13.5px;margin:0">Expandir el flujo trabajado: PN embebido en el pitch de Tiendanube (no segunda llamada), reactivación del 75% no convertido. No suma una cifra fija al waterfall — alimenta a las otras tres.</p>
-  </div>
-  <div class="card" style="border-left:4px solid var(--amber);border-radius:0 14px 14px 0">
-    <span class="pill amber">+$120M · ventanas</span>
-    <h3 class="sub" style="margin-top:8px">Estacionalidad — eventos AR</h3>
-    <p class="body" style="font-size:13.5px;margin:0">Hot Sale, CyberMonday, Mundial, Navidad: ventanas donde la urgencia del comercio es propia, no impuesta. Acelera las otras tres en 2–3 semanas con un deadline real. Es la única palanca que depende del calendario.</p>
-  </div>
+</div>
+<div class="callout amber">
+  <div class="ct">Estacionalidad — no es una palanca propia, es un acelerador</div>
+  <p style="font-size:13.5px">Hot Sale, CyberMonday, Mundial, Navidad: en esas ventanas de 2–3 semanas, la urgencia del comercio es propia (tienen deadline real de facturación). Las dos palancas rinden más en esas ventanas — no sumo un número al waterfall porque no controlo el calendario, pero sí me preparo con anticipación: activos listos con Marketing, pipe priorizado en esas semanas.</p>
 </div>
 
 <h2 class="sec">5 · Por qué el momento del cierre importa — interactivo</h2>
-<p class="body muted">El valor de un cierre depende de cuándo ocurre. MM tarda en activar (1-2 meses): cerrado tarde, su GPV se va al Q siguiente. SMB activa rápido, así que casi todo factura este Q. Mové el tiempo de activación de MM y mirá cómo cambia lo que factura el equipo (MM+SMB) y lo que queda para el Q siguiente.</p>
+<p class="body muted">MM tarda en activar (1-2 meses): cerrado tarde, su GPV se va al Q siguiente. SMB activa rápido, casi todo factura este Q. Mové el tiempo de activación y mirá cómo cambia lo que factura el equipo (MM+SMB) este trimestre y cuánto queda para el siguiente.</p>
 <div style="margin:10px 0 8px;display:flex;align-items:center;gap:12px;flex-wrap:wrap">
   <span style="font-size:13.5px;font-weight:600;min-width:150px">Activación MM (semanas)</span>
   <input type="range" id="s-ttft" min="2" max="8" value="6" step="1" style="flex:1;min-width:180px">
   <span style="font-weight:800;color:var(--tn);min-width:64px" id="o-ttft">6 sem</span>
 </div>
 <div class="grid g3" style="margin:10px 0">
-  <div class="stat"><div class="lbl">Factura este Q (MM + SMB)</div><div class="val tn" id="d-gpv">$1.110M</div></div>
-  <div class="stat"><div class="lbl">Se va al Q siguiente</div><div class="val" style="color:var(--coral)" id="d-next">$336M</div></div>
-  <div class="stat"><div class="lbl">Cuentas MM que activan en el Q</div><div class="val" id="d-act">~7 de 11</div></div>
+  <div class="stat"><div class="lbl">Factura este Q (MM + SMB)</div><div class="val tn" id="d-gpv">$960M</div></div>
+  <div class="stat"><div class="lbl">Se va al Q siguiente</div><div class="val" style="color:var(--coral)" id="d-next">$486M</div></div>
+  <div class="stat"><div class="lbl">Cuentas MM que activan en el Q</div><div class="val" id="d-act">~6 de 11</div></div>
 </div>
 <div class="legend"><span><span class="sw" style="background:#378ADD"></span>MM (ticket $90M)</span><span><span class="sw" style="background:#D85A30"></span>SMB (ticket $24M)</span><span><span class="sw" style="background:#534AB7"></span>Base ($12M)</span></div>
 <div class="chartwrap"><canvas id="decay"></canvas></div>
-<div class="callout teal" id="cross-note"><p>Cruce MM/SMB en la <b>semana 6</b>. Antes: ventana MM. Después: conviene pivotar a SMB. Acortar la activación de MM le da más semanas útiles y sube su facturación dentro del Q.</p></div>
+<div class="callout teal" id="cross-note"><p>Con activación de 6 semanas, el MM activa ~6 de 11 cuentas dentro del Q ($540M). SMB aporta $420M más. Total que factura este Q: $960M. Los $486M restantes activan el Q siguiente — no se pierden, vuelven como herencia. Por eso conviene cerrar MM temprano.</p></div>
 
-<h2 class="sec">6 · El board del trimestre — en vivo</h2>
-<p class="body muted">Mové solo <b>front-load</b> (sin tocar conversión) hasta el 80-100%: ya rozás la cuota, porque más cierres activan dentro del Q. El tiempo es la palanca dominante — la conversión suma encima, no carga sola el peso.</p>
+<h2 class="sec">6 · El board — en vivo</h2>
+<p class="body muted">Partís de $1.624M base. La palanca de tiempo (+$200M) la gestiono con disciplina de pipeline — no es un slider, es un comportamiento: cerrar MM temprano en el Q. La conversión sí la podés ver en vivo: mové los tres roles a los objetivos y cruzás la cuota.</p>
 
 <div class="card">
-  <div class="grid g3" style="margin-bottom:14px">
-    <div class="stat"><div class="lbl">GPV en el Q</div><div class="val tn" id="m-gpv">$1.673M</div></div>
-    <div class="stat"><div class="lbl">Gap vs cuota</div><div class="val" id="m-gap">-$327M</div></div>
-    <div class="stat"><div class="lbl">% de cuota</div><div class="val" id="m-pct">84%</div></div>
+  <div class="grid g3" style="margin-bottom:10px">
+    <div class="stat"><div class="lbl">GPV en el Q</div><div class="val tn" id="m-gpv">$1.624M</div></div>
+    <div class="stat"><div class="lbl">Gap vs cuota</div><div class="val" id="m-gap">-$376M</div></div>
+    <div class="stat"><div class="lbl">% de cuota</div><div class="val" id="m-pct">81%</div></div>
   </div>
-  <div class="progress"><div class="fill" id="bar-fill" style="width:84%">84%</div><div class="goal"></div></div>
-  <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--gray);margin-top:4px"><span>$0</span><span>cuota $2.000M →</span></div>
+  <div class="progress" style="margin-bottom:4px"><div class="fill" id="bar-fill" style="width:81%">81%</div><div class="goal"></div></div>
+  <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--gray);margin-bottom:18px"><span>$0</span><span>cuota $2.000M →</span></div>
 
-  <div style="margin-top:18px">
-    <div class="lever"><div class="lh"><span>⏱ Front-load del Q <span class="muted">(tiempo · costo cero · palanca dominante)</span></span><span class="lv" id="o-front">40%</span></div><input type="range" id="s-front" min="0" max="100" value="40" step="5"></div>
-    <div class="lever"><div class="lh"><span>Conversión Ingreso MM</span><span class="lv" id="o-mm">25%</span></div><input type="range" id="s-mm" min="15" max="40" value="25" step="1"></div>
-    <div class="lever"><div class="lh"><span>Conversión Ingreso SMB</span><span class="lv" id="o-smb">25%</span></div><input type="range" id="s-smb" min="15" max="40" value="25" step="1"></div>
-    <div class="lever"><div class="lh"><span>Conversión base instalada</span><span class="lv" id="o-conv">15%</span></div><input type="range" id="s-conv" min="10" max="30" value="15" step="1"></div>
+  <div class="callout" style="margin-bottom:14px;padding:10px 14px">
+    <p style="font-size:13px;margin:0"><b>+$200M ya computados</b> — palanca de tiempo (front-load): cerrar MM en las primeras semanas del Q. No es un número que movés acá, es la disciplina de pipeline que aplico con el equipo.</p>
+  </div>
+
+  <div>
+    <div class="lever"><div class="lh"><span>Conversión Ingreso MM <span class="muted">(objetivo 28%)</span></span><span class="lv" id="o-mm">25%</span></div><input type="range" id="s-mm" min="15" max="40" value="25" step="1"></div>
+    <div class="lever"><div class="lh"><span>Conversión Ingreso SMB <span class="muted">(objetivo 27%)</span></span><span class="lv" id="o-smb">25%</span></div><input type="range" id="s-smb" min="15" max="40" value="25" step="1"></div>
+    <div class="lever"><div class="lh"><span>Conversión base instalada <span class="muted">(objetivo 20%)</span></span><span class="lv" id="o-conv">15%</span></div><input type="range" id="s-conv" min="10" max="30" value="15" step="1"></div>
   </div>
 </div>
-<p class="body muted" style="font-size:12.5px">El board y el waterfall comparten la misma lógica: el front-load define qué proporción de los cierres activa dentro del Q. Los efectos son ilustrativos — modelan la dirección y el peso relativo de cada palanca, no cifras cerradas al peso.</p>
+<p class="body muted" style="font-size:12.5px;margin-top:8px">Llevá los tres sliders a los objetivos (28/27/20%) y llegás a ~$2.010M. El +$200M de tiempo ya está incluido en el punto de partida del board.</p>
 `;
 
 HTML.metricas = `
@@ -411,41 +432,64 @@ HTML.metricas = `
 <p class="lead">Medir a los tres roles con la misma vara funde el sistema: cada rol vive en una etapa distinta del proceso y en un horizonte distinto. Toda métrica es una tasa de conversión o un tiempo — no un número absoluto. Así puedo diagnosticar <b>por qué</b> alguien no llega, no solo que no llega.</p>
 
 <table class="t">
-  <thead><tr><th style="width:130px">Rol</th><th>Métrica madre</th><th>Métrica de proceso (predice)</th><th>Métrica de calidad (anti-gaming)</th></tr></thead>
+  <thead><tr><th style="width:130px">Rol</th><th>Métrica madre</th><th>Tiempo objetivo</th><th>Métrica de proceso</th><th>Calidad</th></tr></thead>
   <tbody>
-    <tr><td class="rolecol">Ingreso MM</td><td>Activaciones MM + <b>velocidad (TTFT)</b></td><td>CR demo→cierre · velocidad de ciclo</td><td>TPV real post-activación</td></tr>
-    <tr><td class="rolecol">Ingreso SMB</td><td>Activaciones SMB totales</td><td>CR sobre flujo recibido</td><td>TPV real post-activación</td></tr>
-    <tr><td class="rolecol">Conversión</td><td>CR base <b>15→~22%</b> ponderado por GMV</td><td>Velocidad de barrido del top-GMV</td><td>Migración real de TPV (pre/post)</td></tr>
-    <tr><td class="rolecol">Alianzas Bancarias</td><td>Acuerdos × <b>rate × base × duración</b></td><td>Pipeline de acuerdos · cobertura por rubro</td><td>Δ rate efectivo sobre la base</td></tr>
+    <tr>
+      <td class="rolecol">Ingreso MM</td>
+      <td>Activaciones MM + velocidad<div style="font-size:11px;color:var(--gray);margin-top:2px">objetivo conv. 28%</div></td>
+      <td><b>≤45 días</b><div style="font-size:11px;color:var(--gray);margin-top:2px">cierre → activación</div></td>
+      <td>CR demo→cierre · días entre cierre y activación</td>
+      <td>TPV real post-activación</td>
+    </tr>
+    <tr>
+      <td class="rolecol">Ingreso SMB</td>
+      <td>Activaciones SMB totales<div style="font-size:11px;color:var(--gray);margin-top:2px">objetivo conv. 27%</div></td>
+      <td><b>≤21 días</b><div style="font-size:11px;color:var(--gray);margin-top:2px">cierre → activación</div></td>
+      <td>CR sobre flujo recibido · velocidad de ciclo</td>
+      <td>TPV real post-activación</td>
+    </tr>
+    <tr>
+      <td class="rolecol">Conversión</td>
+      <td>CR base <b>15→20%</b> ponderado por GMV<div style="font-size:11px;color:var(--gray);margin-top:2px">sobre cartera priorizada</div></td>
+      <td><b>≤30 días</b><div style="font-size:11px;color:var(--gray);margin-top:2px">toque → activación</div></td>
+      <td>Velocidad de barrido top-GMV en primeras 6 sem</td>
+      <td>Migración real de TPV (pre/post)</td>
+    </tr>
+    <tr>
+      <td class="rolecol">Alianzas Bancarias</td>
+      <td>Acuerdos × rate × base × duración<div style="font-size:11px;color:var(--gray);margin-top:2px">ej: 1 acuerdo · +2pp · $5.000M base · 3Q = $300M GPV adicional</div></td>
+      <td>—<div style="font-size:11px;color:var(--gray);margin-top:2px">ciclo largo, meses</div></td>
+      <td>Pipeline de acuerdos · cobertura por rubro</td>
+      <td>Δ rate efectivo sobre la base</td>
+    </tr>
   </tbody>
 </table>
 
-<h2 class="sec">El 22% no se postula — así se construye</h2>
-<p class="body">Subir la base de 15% a 22% no es voluntarismo. A diferencia de los AEs de Ingreso —que dependen del flujo que les manda Tiendanube—, el <b>Conversión controla su universo</b>: tiene 90 cuentas, son suyas, las ataca cuando y como quiera. Por eso acá la conversión sí se gestiona. El plan tiene tres pasos en orden:</p>
+<h2 class="sec">El 20% no se postula — así se construye</h2>
+<p class="body">Subir la base de 15% a 20% no es voluntarismo. A diferencia de los AEs de Ingreso —que dependen del flujo de Tiendanube—, el <b>Conversión controla su universo</b>: tiene 90 cuentas, son suyas, las ataca cuando y como quiera. Por eso acá la conversión sí se gestiona. El plan tiene tres pasos en orden:</p>
 
 <div class="card" style="border-left:4px solid var(--violet);border-radius:0 14px 14px 0">
   <h3 class="sub" style="margin-top:0">1 · Segmentación ordenada — antes de tocar nada</h3>
-  <p class="body" style="font-size:14px;margin-bottom:4px">No trabajo las 90 al azar. Las ordeno por <b>probabilidad de conversión × ticket</b>: priorizo los rubros y tickets que más convierten (alto GMV, categorías de ticket de compra alto — electro, tecno, deco — que más se benefician del ahorro y de las cuotas), y los cruzo con la <b>estacionalidad</b> (qué rubro entra en qué evento del calendario AR).</p>
+  <p class="body" style="font-size:14px;margin-bottom:4px">No trabajo las 90 al azar. Las ordeno por <b>probabilidad de conversión × ticket</b>: priorizo los rubros y tickets que más convierten (alto GMV, categorías de ticket de compra alto — electro, tecno, deco) y los cruzo con la <b>estacionalidad</b> (qué rubro entra en qué evento del calendario AR).</p>
   <div class="tag-row"><span class="pill violet">Por ticket / GMV</span><span class="pill violet">Por rubro que más convierte</span><span class="pill amber">Por evento estacional</span></div>
 </div>
 
 <div class="card" style="border-left:4px solid var(--tn);border-radius:0 14px 14px 0">
-  <h3 class="sub" style="margin-top:0">2 · Los toques, pensados por tiempo de activación</h3>
-  <p class="body" style="font-size:14px">La base activa en ~1 mes y el Q tiene ~90 días. Si toco todas las cuentas en los <b>primeros ~60 días</b>, todas alcanzan a cerrar el ciclo de activación <b>dentro del Q</b>. Por eso no reparto 30/30/30 por mes: barro la cartera priorizada al inicio, empezando por las de mayor valor. La cuenta tocada en el mes 3 activa el Q siguiente — la del mes 1 factura este Q.</p>
+  <h3 class="sub" style="margin-top:0">2 · Los toques, pensados con el tiempo de activación</h3>
+  <p class="body" style="font-size:14px">La base activa en ~30 días y el Q tiene ~90 días. Si toco las cuentas en los <b>primeros 60 días</b>, todas alcanzan a cerrar el ciclo dentro del Q. Por eso no reparto 30/30/30 por mes: barro la cartera priorizada al inicio, empezando por las de mayor valor.</p>
 </div>
 
 <div class="card" style="border-left:4px solid var(--teal);border-radius:0 14px 14px 0">
   <h3 class="sub" style="margin-top:0">3 · El argumento que sube el CR</h3>
-  <p class="body" style="font-size:14px">Sobre esa cartera priorizada, el pitch es el <b>ahorro cuantificado</b> (el 0,7–2% bonificado, en pesos para ese comercio) + la <b>menor fricción</b> que mejora su conversión. De ahí salen los ~7 puntos: <b>+3–4 pp</b> por segmentar bien (trabajo un subconjunto que convierte más) y <b>+2–3 pp</b> por el argumento de valor. El resultado: <b>~22% sobre la cartera priorizada</b>, no sobre la base entera.</p>
+  <p class="body" style="font-size:14px">El pitch es el <b>ahorro cuantificado</b> (el 0,7–2% bonificado en pesos para ese comercio) + <b>menor fricción en el checkout</b> que mejora su conversión. De ahí salen los ~5 puntos: <b>+3 pp</b> por segmentar bien y <b>+2 pp</b> por el argumento de valor. El resultado: <b>~20% sobre la cartera priorizada</b>, no sobre la base entera.</p>
 </div>
-<p class="body muted" style="font-size:12.5px">El front-load del barrido <b>no</b> entra en el 22%: ese sube el CR; el front-load sube el GPV que cae dentro del Q. Son dos cosas distintas — sumarlas sería doble conteo.</p>
 
 <div class="callout">
   <p><b>Métricas para corregir a tiempo, no para reportar al final.</b> Si solo miro la conversión final, me entero del problema cuando ya no hay margen. La métrica de proceso —cuántas cuentas del top barrió en las primeras semanas— me lo muestra temprano, con tiempo de sobra para reasignar foco.</p>
 </div>
 
-<h3 class="sub">Operable, no burocrático</h3>
-<p class="body">No trackeo 12 métricas por igual. Cada AE vive en <b>dos números</b>: una métrica madre que mira a diario, una de proceso que vemos juntos en el semanal. La de calidad la audito yo, mensual. El resto es mi trabajo, no el suyo.</p>
+<h3 class="sub">Simple y operable</h3>
+<p class="body">No trackeo 12 métricas por igual. Cada AE tiene <b>dos números propios</b>: una métrica madre que sigue a diario y una de proceso que revisamos juntos en el semanal. La de calidad la audito yo mensualmente. Así el equipo foca, y yo tengo visibilidad para actuar antes de que sea tarde.</p>
 `;
 
 HTML.desempeno = `
@@ -453,19 +497,19 @@ HTML.desempeno = `
 <h1 class="title">Bajo y alto rendimiento:<br><span class="hl">dónde pongo mi hora</span></h1>
 <p class="lead">Mi tiempo de coordinador es finito. La pregunta de fondo no es solo "¿cómo recupero a los que fallan?" — es "¿dónde rinde más cada hora que invierto?". Y la respuesta suele ser, contraintuitivamente, potenciar a los que ya funcionan.</p>
 
-<h2 class="sec">El retorno del tiempo: potenciar y recuperar</h2>
+<h2 class="sec">El retorno del tiempo: dónde pongo el foco</h2>
 <div class="grid g2">
   <div class="card" style="border-top:4px solid var(--teal)">
-    <span class="pill teal">Alto rendimiento — potenciar</span>
-    <h3 class="sub" style="margin-top:10px">Acompañar a un Ingreso MM que ya cumple a cerrar más</h3>
-    <div style="font-size:30px;font-weight:800;color:var(--ok);margin:6px 0">mayor retorno</div>
-    <p class="body" style="font-size:13.5px;margin:0">No puedo "darle mejores leads" — el flujo lo define Tiendanube, no yo. Lo que sí hago: <b>coaching de cierre, acompañamiento en deals grandes</b>, y sobre todo trabajar el <b>hand-off con Tiendanube en una meet conjunta</b> donde cerramos PN en el mismo momentum de la venta de Tiendanube. Por el ticket alto, una mejora acá rinde mucho más que en otros segmentos.</p>
+    <span class="pill teal">Mi mayor palanca — Ingreso MM</span>
+    <h3 class="sub" style="margin-top:10px">Ayudar a cerrar más y activar más rápido</h3>
+    <div style="font-size:22px;font-weight:800;color:var(--ok);margin:6px 0">3.7× más retorno que SMB</div>
+    <p class="body" style="font-size:13.5px;margin:0">Por ticket ($90M vs $24M) y porque reducir el tiempo de activación MM de 45 a 30 días trae GPV que de otra forma cae al Q siguiente. Mi foco acá: <b>coaching de cierre</b> (llegar al decisor, CFO/dueño), <b>acompañamiento en deals grandes</b> y la <b>meet conjunta con Tiendanube</b> para activar PN en el mismo momentum. Es donde cada hora mía rinde más.</p>
   </div>
   <div class="card" style="border-top:4px solid var(--coral)">
     <span class="pill coral">Bajo rendimiento — recuperar</span>
-    <h3 class="sub" style="margin-top:10px">Recuperar al Conversión que no llega</h3>
-    <div style="font-size:30px;font-weight:800;color:var(--coral);margin:6px 0">menor retorno</div>
-    <p class="body" style="font-size:13.5px;margin:0">Mismo tiempo, menos retorno por el ticket más bajo. No se abandona — recibe diagnóstico y soporte — pero no es donde va mi tiempo principal.</p>
+    <h3 class="sub" style="margin-top:10px">Diagnóstico antes que disciplina</h3>
+    <div style="font-size:22px;font-weight:800;color:var(--coral);margin:6px 0">menor retorno por ticket</div>
+    <p class="body" style="font-size:13.5px;margin:0">Mismo tiempo de coaching, menos impacto en GPV por el ticket más bajo. No se abandona — recibe diagnóstico y soporte — pero no es donde va mi tiempo principal.</p>
   </div>
 </div>
 
@@ -524,41 +568,47 @@ HTML.roles = `
 HTML.cross = `
 <span class="kicker"><span class="k-n">05</span> · Liderazgo — a) Cross-funcional</span>
 <h1 class="title">Con qué equipos me apoyo<br>y <span class="hl">cómo activo cada colaboración</span>.</h1>
-<p class="lead">Tres áreas tocan mi cadena de valor de punta a punta — entrada, salida y dato. Con cada una, un acuerdo de win-win: lo que pido y lo que ofrezco a cambio.</p>
+<p class="lead">Cuatro áreas críticas que tocan directamente mi cadena de valor. Con cada una, un acuerdo concreto: qué pido y qué ofrezco.</p>
 
-<div class="grid g3">
+<div class="grid g2">
   <div class="card" style="border-top:4px solid var(--coral)">
     <span class="pill coral">1° · Mi fuente de flujo</span>
     <h3 class="sub" style="margin-top:8px">Sales de Tiendanube</h3>
-    <p class="body" style="font-size:13.5px"><b>Pido:</b> visibilidad temprana de su forecast y la meet conjunta de cierre para activar PN en el momentum.<br><b>Ofrezco:</b> mejor retención de su base — un comercio con PN activo se va menos.</p>
-    <p class="body" style="font-size:12.5px;margin-top:6px"><b>Cómo lo activo:</b> sync de forecast + playbook de venta conjunta.</p>
+    <p class="body" style="font-size:13.5px"><b>Pido:</b> visibilidad temprana de su forecast y la meet conjunta de cierre para activar PN en el momentum del onboarding.<br><b>Ofrezco:</b> mejor retención de su base — un comercio con PN activo se va menos.</p>
+    <p class="body" style="font-size:12.5px;margin-top:6px"><b>Cómo lo activo:</b> sync de forecast quincenal + playbook de venta conjunta compartido.</p>
   </div>
   <div class="card" style="border-top:4px solid var(--violet)">
     <span class="pill violet">2° · Protege mi resultado</span>
     <h3 class="sub" style="margin-top:8px">Customer Success de Pagos</h3>
-    <p class="body" style="font-size:13.5px"><b>Pido:</b> que continúen midiendo el procesamiento real post-activación (que la activación no quede "fantasma").<br><b>Ofrezco:</b> contexto completo del comercio en el traspaso.</p>
-    <p class="body" style="font-size:12.5px;margin-top:6px"><b>Cómo lo activo:</b> handoff ordenado en el CRM → loop de calidad.</p>
+    <p class="body" style="font-size:13.5px"><b>Pido:</b> que continúen midiendo el procesamiento real post-activación y que me avisen si una activación queda sin uso real.<br><b>Ofrezco:</b> contexto completo del comercio en el traspaso, sin fricciones.</p>
+    <p class="body" style="font-size:12.5px;margin-top:6px"><b>Cómo lo activo:</b> handoff ordenado en CRM → loop de calidad. Sin fricción en la activación = comercio que factura desde el día 1.</p>
   </div>
   <div class="card" style="border-top:4px solid var(--tn)">
     <span class="pill tn">3° · Me da el dato</span>
     <h3 class="sub" style="margin-top:8px">RevOps</h3>
-    <p class="body" style="font-size:13.5px"><b>Pido:</b> instrumentar velocidad de activación, cierres por período, procesamiento real, scoring de cartera.<br><b>Ofrezco:</b> requerimientos precisos y priorizados.</p>
-    <p class="body" style="font-size:12.5px;margin-top:6px"><b>Cómo lo activo:</b> dashboard compartido. <span class="muted">Probablemente ya esté armado en buena parte.</span></p>
+    <p class="body" style="font-size:13.5px"><b>Pido:</b> instrumentar tiempo de activación por rol (días cierre→primera transacción), cierres por período, procesamiento real, scoring de cartera.<br><b>Ofrezco:</b> requerimientos precisos y priorizados — no pedidos vagos.</p>
+    <p class="body" style="font-size:12.5px;margin-top:6px"><b>Cómo lo activo:</b> dashboard compartido con los KPIs de tiempo (≤45 días MM, ≤21 días SMB, ≤30 días base).</p>
+  </div>
+  <div class="card" style="border-top:4px solid var(--teal)">
+    <span class="pill teal">4° · Sin fricción en la activación</span>
+    <h3 class="sub" style="margin-top:8px">Producto</h3>
+    <p class="body" style="font-size:13.5px"><b>Pido:</b> que la activación de PN no tenga fricción — el proceso de configuración tiene que ser simple y rápido. Cada día de fricción en el onboarding es GPV que no entra en el Q.<br><b>Ofrezco:</b> feedback sistemático de los deals perdidos por fricción técnica y los cambios de medio de pago que frenan la adopción.</p>
+    <p class="body" style="font-size:12.5px;margin-top:6px"><b>Cómo lo activo:</b> registro de motivos de pérdida por fricción → input directo al roadmap.</p>
   </div>
 </div>
 
 <h2 class="sec">Alianzas Bancarias — la inversión en paralelo que apoya el objetivo</h2>
-<p class="body">El AE de Alianzas Bancarias no factura GPV este trimestre, pero su trabajo es parte central de cómo llego al objetivo. Los acuerdos que cierra con un banco <b>empujan el rate</b> y mejoran las cuotas, y eso impacta directamente sobre las cuentas <b>ya activadas</b> — sin cerrar un solo deal nuevo. Es una inversión que corre en paralelo y rinde en los Q siguientes.</p>
+<p class="body">El AE de Alianzas Bancarias no factura GPV este trimestre, pero su trabajo es parte central de cómo llego al objetivo. Los acuerdos que cierra <b>empujan el rate</b> y mejoran las cuotas, impactando sobre las cuentas ya activadas — sin cerrar un solo deal nuevo.</p>
 <div class="grid g2">
-  <div class="card"><h3 class="sub" style="margin-top:0">Cómo aporta al objetivo</h3><p class="body" style="font-size:14px">Un acuerdo a varios trimestres rinde más que uno corto: el mejor rate se acumula sobre toda la base, período tras período. Por eso lo mido por rate conseguido × base sobre la que aplica × duración del acuerdo.</p></div>
-  <div class="card"><h3 class="sub" style="margin-top:0">Cómo se conecta con la conversión</h3><p class="body" style="font-size:14px">Mejores cuotas y mejor rate hacen <b>más fácil convertir</b> — sobre todo en los rubros de ticket alto. Es munición directa para el AE de Conversión y parte de cómo subimos la base hacia el 22%.</p></div>
+  <div class="card"><h3 class="sub" style="margin-top:0">Cómo aporta al objetivo</h3><p class="body" style="font-size:14px">Lo mido por rate conseguido × base × duración.<div style="font-size:12px;color:var(--gray);margin-top:4px">ej: +2pp de rate · $5.000M base activada · 3Q = $300M GPV adicional sin nuevas ventas</div></p></div>
+  <div class="card"><h3 class="sub" style="margin-top:0">Cómo se conecta con la conversión</h3><p class="body" style="font-size:14px">Mejores cuotas y mejor rate hacen más fácil convertir la base instalada hacia el <b>20% objetivo</b>. Es munición directa para el AE de Conversión.</p></div>
 </div>
 
-<h2 class="sec">Otras áreas — feedback estructurado, no pedidos sueltos</h2>
-<p class="body">Producto (el checkout y el capture rate del 60%), Pricing (el rate y las cuotas) y Marketing (calendario de eventos AR). A estas áreas las apoyo con algo concreto: el <b>registro de motivos de deals perdidos</b> que sale de mi equipo. Si pierdo deals por fricción de checkout, eso va a Producto; si es por rate o cuotas, a Pricing. Convierto cada deal perdido en inteligencia para que otras áreas mejoren la propuesta.</p>
+<h2 class="sec">Feedback estructurado para otras áreas</h2>
+<p class="body">El registro de motivos de deals perdidos que sale de mi equipo es input directo para Pricing, Marketing y Producto. Convierto cada deal perdido en inteligencia: si pierdo por rate → Pricing; si es por fricción en la activación → Producto; si es por timing de evento → Marketing.</p>
 
-<h2 class="sec">Automatización + IA — habilitador, no protagonista</h2>
-<p class="body">El cómo técnico es de RevOps; el <b>qué</b> sistematizar es mío. La IA, anclada al cuello de botella de cada rol: business case y casos de éxito personalizados por comercio, que hacen <b>ejecutable</b> el barrido temprano de las 90 cuentas (personalizar 90 pitches a mano es imposible en la ventana de tiempo). Como propuesta, no como algo ya construido.</p>
+<h2 class="sec">Automatización + IA</h2>
+<p class="body">El cómo técnico es de RevOps; el <b>qué</b> sistematizar es mío. La IA anclada al cuello de botella de cada rol: business case y casos de éxito personalizados por comercio — hace ejecutable el barrido temprano de las 90 cuentas. Como propuesta, no como algo ya construido.</p>
 `;
 
 HTML.motivacion = `
@@ -660,19 +710,28 @@ HTML.cierre = `
 <h1 class="title">El tiempo es el único recurso<br>que <span class="hl">no puedo recuperar</span>.</h1>
 <p class="lead">Cada semana del trimestre que no arquitecturo es GPV que se fuga. No vendo más esfuerzo — reposiciono cuándo y dónde deposita el valor.</p>
 
-<div class="card" style="background:var(--tn);color:#fff;border:none">
-  <h3 class="sub" style="color:#fff;margin-top:0">El hilo completo, en una frase por bloque</h3>
-  <ul class="clean" style="margin-top:4px">
-    <li style="color:rgba(255,255,255,.92)"><b style="color:#fff">Estrategia:</b> construyo la cuota mes a mes y cierro el gap con tiempo antes que con más actividad.</li>
-    <li style="color:rgba(255,255,255,.92)"><b style="color:#fff">Métricas:</b> cada rol, una tasa o un tiempo — para corregir temprano, no reportar al final.</li>
-    <li style="color:rgba(255,255,255,.92)"><b style="color:#fff">Desempeño:</b> mi hora va donde más rinde, no donde más ruido hay.</li>
-    <li style="color:rgba(255,255,255,.92)"><b style="color:#fff">Roles:</b> la presión se invierte según quién controla el flujo.</li>
-    <li style="color:rgba(255,255,255,.92)"><b style="color:#fff">Cross-funcional:</b> Tiendanube → CS de Pagos → RevOps, más Alianzas Bancarias como inversión en paralelo.</li>
-    <li style="color:rgba(255,255,255,.92)"><b style="color:#fff">Motivación:</b> cuatro rituales y reconocimiento de lo que cada rol sí controla.</li>
-    <li style="color:rgba(255,255,255,.92)"><b style="color:#fff">Caso práctico:</b> mismo síntoma, diagnósticos opuestos, tratamientos opuestos.</li>
-  </ul>
+<div class="grid g2" style="margin:16px 0">
+  <div class="card" style="background:var(--tn);color:#fff;border:none;padding:18px 20px">
+    <h3 class="sub" style="color:#fff;margin:0 0 12px">Cómo llego a los $2.000M</h3>
+    <ul class="clean">
+      <li style="color:rgba(255,255,255,.9)">Base $1.624M → cola −$366M → herencia +$366M → <b style="color:#fff">piso $1.624M</b></li>
+      <li style="color:rgba(255,255,255,.9)">Palanca 1 · Tiempo: <b style="color:#fff">+$200M</b> cerrando MM temprano</li>
+      <li style="color:rgba(255,255,255,.9)">Palanca 2 · Conversión: <b style="color:#fff">+$212M</b> mejora leve los 3 roles</li>
+      <li style="color:rgba(255,255,255,.9)"><b style="color:#fff">Total ~$2.036M</b> — $36M de colchón</li>
+    </ul>
+  </div>
+  <div class="card" style="background:var(--tn);color:#fff;border:none;padding:18px 20px">
+    <h3 class="sub" style="color:#fff;margin:0 0 12px">Cómo lo gestiono</h3>
+    <ul class="clean">
+      <li style="color:rgba(255,255,255,.9)">MM es mi mayor palanca — <b style="color:#fff">3.7× retorno</b> vs SMB por ticket</li>
+      <li style="color:rgba(255,255,255,.9)">KPIs con tiempo: ≤45 días MM · ≤21 días SMB · ≤30 días base</li>
+      <li style="color:rgba(255,255,255,.9)">4 áreas cross: Tiendanube · CS · RevOps · Producto</li>
+      <li style="color:rgba(255,255,255,.9)">4 rituales: semanal 1:1 · mensual indiv. · mensual equipo · forecast</li>
+    </ul>
+  </div>
 </div>
-<div class="callout teal"><p style="font-size:15px"><b>Llego a la cuota con margen, no justo</b> — y con la estructura para sostenerla del Q siguiente en adelante, cuando el pipe ya viene cargado. Gracias. Quedo para sus preguntas.</p></div>
+
+<div class="callout teal"><p style="font-size:15px">Quedo para sus preguntas.</p></div>
 `;
 
 /* ---------- BUILD NAV + SLIDES ---------- */
@@ -730,35 +789,34 @@ function updT(){
 document.getElementById('t-reset').onclick=()=>{ if(tick)clearInterval(tick); t0=null; document.getElementById('timer').textContent='00:00'; };
 
 /* ---------- MODEL BOARD ---------- */
-const GMV={mm:150,smb:40,base:20},CAP=0.60,CUOTA=2000;
-const DEALS={mm:45,smb:75,base:90};
+const CUOTA=2000;
+const PISO_BASE=1624, TIEMPO_FIJO=200; // front-load ya computado, fijo
 function calcModel(){
-  const mm=+v('s-mm')/100, smb=+v('s-smb')/100, conv=+v('s-conv')/100, front=+v('s-front')/100;
-  const cierres=DEALS.mm*mm*GMV.mm*CAP + DEALS.smb*smb*GMV.smb*CAP + DEALS.base*conv*GMV.base*CAP;
-  // El front-load define qué proporción de los cierres activa DENTRO del Q.
-  // front=0 -> 0.85 (mucha cola se va al Q+1); front=1 -> 1.30 (se adelanta y se trae cola).
-  const factorTiempo = 0.85 + 0.45*front;
-  return Math.max(0, cierres*factorTiempo);
+  const mm=+v('s-mm')/100, smb=+v('s-smb')/100, conv=+v('s-conv')/100;
+  // Delta conversión respecto a tasas base (25/25/15)
+  const delta_mm  = 45*(mm-0.25)*90;
+  const delta_smb = 75*(smb-0.25)*24;
+  const delta_conv= 90*(conv-0.15)*12;
+  return Math.max(0, PISO_BASE + TIEMPO_FIJO + delta_mm + delta_smb + delta_conv);
 }
 function v(id){return document.getElementById(id).value}
 function fmt(n){return '$'+Math.round(n).toLocaleString('es-AR')+'M'}
 function renderModel(){
-  if(!document.getElementById('s-front'))return;
-  const t=calcModel(),gap=t-CUOTA,pct=Math.round(t/CUOTA*100);
-  document.getElementById('m-gpv').textContent=fmt(t);
+  if(!document.getElementById('s-mm'))return;
+  const gpv=calcModel(), gap=gpv-CUOTA, pct=Math.round(gpv/CUOTA*100);
+  document.getElementById('m-gpv').textContent=fmt(gpv);
   const g=document.getElementById('m-gap');
   g.textContent=(gap>=0?'+':'-')+'$'+Math.abs(Math.round(gap)).toLocaleString('es-AR')+'M';
   g.style.color=gap>=0?'var(--ok)':'var(--ink)';
   document.getElementById('m-pct').textContent=pct+'%';
   const f=document.getElementById('bar-fill');
-  f.style.width=Math.min(100,pct)+'%'; f.textContent=pct+'%';
+  f.style.width=Math.min(110,pct)+'%'; f.textContent=pct+'%';
   f.style.background=gap>=0?'var(--teal)':'var(--tn)';
-  document.getElementById('o-front').textContent=v('s-front')+'%';
   document.getElementById('o-mm').textContent=v('s-mm')+'%';
   document.getElementById('o-smb').textContent=v('s-smb')+'%';
   document.getElementById('o-conv').textContent=v('s-conv')+'%';
 }
-['s-front','s-mm','s-smb','s-conv'].forEach(id=>{
+['s-mm','s-smb','s-conv'].forEach(id=>{
   const el=document.getElementById(id);
   if(el)el.addEventListener('input',()=>{startTimer();renderModel();});
 });
